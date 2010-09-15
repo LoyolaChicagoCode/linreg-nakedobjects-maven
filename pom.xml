@@ -52,13 +52,6 @@
   		<type>jar</type>
   		<scope>compile</scope>
   	</dependency>
-  	<dependency>
-  		<groupId>org.nakedobjects.plugins</groupId>
-  		<artifactId>headless-junit</artifactId>
-  		<version>1.0.0</version>
-  		<type>jar</type>
-  		<scope>test</scope>
-  	</dependency>
   </dependencies>
   <build>
     <finalName>numguess-nakedobjects</finalName>
