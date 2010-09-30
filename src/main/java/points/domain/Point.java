@@ -21,7 +21,6 @@ public class Point implements Comparable<Point> {
     }
 
 	public void remove() {
-		getContainer().resolve(this);
 		getContainer().remove(this);
 	}
 
@@ -42,7 +41,6 @@ public class Point implements Comparable<Point> {
 
 	public void setX(final double x) {
 		this.x = x;
-		getContainer().objectChanged(this);
 	}
 
 	@MemberOrder(sequence="2")
@@ -52,20 +50,17 @@ public class Point implements Comparable<Point> {
 
 	public void setY(final double y) {
 		this.y = y;
-		getContainer().objectChanged(this);
 	}
 
 	private Color color;
 
 	@MemberOrder(sequence="3")
 	public Color getColor() {
-		getContainer().resolve(this, color);
 		return color;
 	}
 
 	public void setColor(final Color color) {
 		this.color = color;
-		getContainer().objectChanged(this);
 	}
 
 	public Color defaultColor() {
