@@ -3,7 +3,7 @@
          http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.luc.etl</groupId>
-	<artifactId>linearregression-nakedobjects</artifactId>
+	<artifactId>linreg-nakedobjects-maven</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>Linear Regression Naked Objects mavenized</name>
